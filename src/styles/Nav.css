@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  height: 6rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+}
+.navItemsContiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+}
