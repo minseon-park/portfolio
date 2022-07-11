@@ -18,16 +18,16 @@
   height: 20rem;
 }
 .text {
-  height: 20rem;
-  width: 25rem;
+  height: 17rem;
+  width: 23rem;
 
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #ffffff;
 
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 
-  padding-top: 3em;
+  padding-top: 2em;
   padding-right: 2em;
   padding-left: 2em;
 }
