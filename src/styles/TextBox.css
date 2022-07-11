@@ -1,0 +1,11 @@
+/* * {
+  display: flex;
+  flex-direction: column;
+} */
+.titleText {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.textData {
+  font-size: 1.2em;
+}

@@ -1,0 +1,33 @@
+.about {
+  height: 55rem;
+}
+.aboutTitle {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 2.8em;
+  padding: 2rem 2rem 2rem 5rem;
+}
+.aboutImg {
+  height: 28rem;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+}
+.secondRow {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+}
