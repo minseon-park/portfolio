@@ -1,0 +1,20 @@
+.bar {
+  width: 38rem;
+  height: 3.1rem;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  margin: 1.1rem;
+}
+
+.pro {
+  height: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-radius: 5px;
+  background-color: #ffd24c;
+  color: #313131;
+  font-size: 1.1em;
+  font-weight: 500;
+}

@@ -1,0 +1,44 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  height: 55rem;
+  background-color: #575757;
+}
+.skillsTitle {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 2.5em;
+  padding: 4rem;
+  color: white;
+}
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.skillsTag {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.skillsText {
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 10rem;
+  width: 50rem;
+  color: white;
+}
+.barContainer {
+  flex-direction: column;
+}
+
+#skillsColor {
+  color: #ffd24c;
+  margin-left: 0.5em;
+}

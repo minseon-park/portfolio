@@ -1,9 +1,14 @@
-import "../styles/TextBox.css";
-export default function TextBox({ titleText, textData, classname }: { titleText: string; textData: String[]; classname: string }) {
+import style from "../styles/TextBox.module.css";
+interface TextBoxProps {
+  titleText: string;
+  textData: String[];
+  classname: string;
+}
+export default function TextBox({ titleText, textData, classname }: TextBoxProps) {
   return (
     <div className={classname}>
-      <div className="titleText"> {titleText}</div>
-      <div className="textData">
+      <div className={style.titleText}> {titleText}</div>
+      <div className={style.textData}>
         {textData.map((text, index) => (
           <p key={index}>{text}</p>
         ))}
