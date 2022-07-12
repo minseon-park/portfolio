@@ -1,11 +1,15 @@
+import { useState } from "react";
 import "../styles/App.css";
 import style from "../styles/Nav.module.css";
 import NavItemsContainer from "./NavItemsContainer";
+import nowWidth from "../hooks/useResize";
 export default function Nav() {
+  const width = nowWidth();
+
   return (
     <div className={style.nav}>
       <div className={style.logo}>Minseon's Portfolio</div>
-      <NavItemsContainer />
+      {width < 650 ? <button>🍄</button> : <NavItemsContainer />}
     </div>
   );
 }

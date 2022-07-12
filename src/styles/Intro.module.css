@@ -1,5 +1,5 @@
 .intro {
-  background-color: black;
+  background-color: #222831;
   width: 100%;
   height: 50rem;
 
@@ -30,4 +30,19 @@
   padding-top: 2em;
   padding-right: 2em;
   padding-left: 2em;
+}
+
+/* phone size */
+@media (max-width: 650px) {
+  .intro {
+    flex-wrap: wrap;
+  }
+  .introImg {
+    width: 80%;
+  }
+  .text {
+    height: 15rem;
+    width: 80%;
+    padding: 1em;
+  }
 }
