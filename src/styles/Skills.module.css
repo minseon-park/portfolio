@@ -42,3 +42,26 @@
   color: #ffd24c;
   margin-left: 0.5em;
 }
+
+@media (max-width: 650px) {
+  .skillsTitle {
+    font-size: 2em;
+    padding: 2rem;
+  }
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .skillsTag {
+    font-size: 1em;
+  }
+  .skillsText {
+    font-size: 0.9em;
+  }
+  .textContainer {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
