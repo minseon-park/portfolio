@@ -1,5 +1,8 @@
 .about {
   height: 55rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .aboutTitle {
   display: flex;
@@ -41,4 +44,33 @@
 #aboutColor {
   color: #ffd24c;
   margin-left: 0.5em;
+}
+
+@media (max-width: 650px) {
+  .aboutContainer {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+  }
+  .aboutTitle {
+    font-size: 2em;
+    padding: 2rem;
+  }
+  .aboutImg {
+    width: 50%;
+    height: 50%;
+  }
+  .infoContainer {
+    width: 100%;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  .firstRow,
+  .secondRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }

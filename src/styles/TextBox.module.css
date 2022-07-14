@@ -5,3 +5,13 @@
 .textData {
   font-size: 1.2em;
 }
+
+@media (max-width: 650px) {
+  .titleText {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .textData {
+    font-size: 0.8em;
+  }
+}

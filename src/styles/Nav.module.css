@@ -25,8 +25,11 @@
 
 @media (max-width: 650px) {
   .nav {
-    font-size: 0.9em;
+    font-size: 1em;
     height: 4rem;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .logo {
