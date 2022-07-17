@@ -1,0 +1,24 @@
+.project {
+  height: 100rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #393e46;
+}
+
+.projectTitle {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 2.5em;
+  padding: 4rem;
+  color: #ffffff;
+}
+
+#projectTitleColor {
+  color: #ffd24c;
+  margin-left: 0.5em;
+}
+
+.projectContainer {
+}
