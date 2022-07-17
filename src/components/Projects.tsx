@@ -1,4 +1,5 @@
 import style from "../styles/Projects.module.css";
+import ProjectItem from "./ProjectItem";
 export default function Projects() {
   return (
     <div className={style.project}>
@@ -6,7 +7,9 @@ export default function Projects() {
         <p>Projects </p>
         <p id={style.projectTitleColor}> .</p>
       </div>
-      <div className={style.projectContainer}></div>
+      <div className={style.projectContainer}>
+        <ProjectItem />
+      </div>
     </div>
   );
 }
