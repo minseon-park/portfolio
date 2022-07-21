@@ -9,6 +9,7 @@
   height: 6rem;
   justify-content: space-around;
   align-items: center;
+  font-family: "OTWelcomeBA";
 }
 .logo {
   font-family: "Oswald", sans-serif;

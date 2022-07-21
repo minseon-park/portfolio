@@ -1,4 +1,6 @@
 import React from "react";
+
+import "./styles/App.global.css";
 import Nav from "./components/Nav";
 import Intro from "./components/Intro";
 import About from "./components/About";
