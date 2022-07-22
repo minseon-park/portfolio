@@ -2,9 +2,9 @@ import "../styles/App.css";
 import style from "../styles/About.module.css";
 import { minseonInfo, educationInfo, channelInfo, contactInfo } from "../data";
 import TextBox from "./TextBox";
-export default function About() {
+export default function About({ aboutRef }: any) {
   return (
-    <div className={style.about}>
+    <div ref={aboutRef} className={style.about}>
       <div className={style.aboutTitle}>
         <p>About Me </p>
         <p id={style.aboutColor}> .</p>

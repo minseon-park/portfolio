@@ -2,9 +2,9 @@ import style from "../styles/Skills.module.css";
 import { skillsText, tags, skills } from "../data";
 import Text from "./Text";
 import Bars from "./Bars";
-export default function Skills() {
+export default function Skills({ skillRef }: any) {
   return (
-    <div className={style.skills}>
+    <div ref={skillRef} className={style.skills}>
       <div className={style.skillsTitle}>
         <p>Skills</p>
         <p id={style.skillsColor}>.</p>
